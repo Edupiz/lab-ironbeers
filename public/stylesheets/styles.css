@@ -5,3 +5,48 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f9f9;
+}
+nav > ul {
+    border: 2px solid #2081c3;
+    background-color: #2081c3 ;
+    width: 100%;
+    position: relative; 
+    display: flex;
+    top: 0; 
+    left: 0;
+    margin: 0;
+  justify-content: space-around;
+  padding: 0em;
+  font-weight: 800;
+  list-style: none;
+  color: #f7f9f9;
+  height: 10%;
+  }
+  a {
+    text-decoration: none;
+    color: #f7f9f9;
+  }
+  button{
+    position: relative;
+   text-align: center;
+    display: flex;
+   border: 2px solid #2081c3;
+background-color: #2081c3 ;
+justify-content: center;
+height: 10%;
+text-decoration: none;
+    color: #f7f9f9;
+    margin-left: 30vw;
+  }
+#birrita{
+    position: relative;
+    margin-left: 30vw;
+}
